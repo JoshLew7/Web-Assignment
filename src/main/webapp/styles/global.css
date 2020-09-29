@@ -1,0 +1,93 @@
+/*All of the website is being changed */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Body styling for the site*/
+
+body{
+    color: white;
+
+    font-family: "Brush Script MT", sans-serif;
+    line-height: 1.4;
+    overflow-x: hidden;
+}
+
+/*Utility Classes*/
+.container{
+    margin: auto;
+    max-width: 1100px;
+}
+
+.text-primary{
+    color: white;
+}
+
+.heading{
+    color: goldenrod;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-weight: 800;
+    line-height: 1.1;
+    letter-spacing: 0;
+    margin-bottom: 3rem;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.subheading{
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-weight: 800;
+    line-height: 1.1;
+    letter-spacing: 0;
+    font-size: 18px;
+    text-align: center;
+}
+
+/*Navigation Bar*/
+#navbar{
+    background: #333333; /* Background Color of the full navigation bar*/
+    border-bottom: 5px solid goldenrod;
+    color: whitesmoke;
+    display: flex;
+    font-size: medium;
+    justify-content: space-between;
+    padding: 1.35rem 8rem;
+    position: sticky;
+    top: 0;
+    z-index: 1; /* Moves Header to the front*/
+
+}
+
+ul li ul li{
+    display: none;
+}
+
+#navbar ul{
+    align-items: center;
+    display: flex;
+    list-style: none;
+}
+
+#navbar h2 a{ /*Name text*/
+    color: goldenrod;
+    font-size: xx-large;
+    text-decoration: none;
+}
+
+#navbar li a{ /*Header Text (links)*/
+    border-radius: 5px;
+    color: white;
+    font-size: x-large;
+    margin: 0 0.5rem;
+    padding: 1rem;
+    text-decoration: none;
+    transition: background-color 0.25s;
+}
+
+#navbar li a:hover{
+    background-color:  #2055DA;
+    /*#00CA9C*/
+}

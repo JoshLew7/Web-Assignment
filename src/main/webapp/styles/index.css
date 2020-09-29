@@ -1,0 +1,356 @@
+/*
+Start of Styling 06/01/2020
+ */
+
+
+/*Exhibit Section */
+#exhibit{
+    background: url("../assets/img/Robo1Cropped.jpg") no-repeat center center /cover;
+    height: 87vh;
+
+}
+
+.exhibit-section{
+    align-items: center;
+    background: rgba(0,0,0,0.625);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    text-align: center;
+
+    top: 81px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.exhibit-section h1{
+    color: goldenrod;
+    font-size: 4rem;
+    margin-bottom: 1.5rem;
+}
+
+.exhibit-section .button{
+    font-size: 2rem;
+    padding: 1rem 10rem;
+    transition: color 0.45s, background 0.45s;
+}
+
+.exhibit-section .button:hover{
+    background:  #2055DA;
+    color: white;
+    opacity: 100%; /*TODO Try to get this to only fade the background no the text too,
+                    TODO Add the Header Buttons*/
+}
+
+.button{
+    border: 2px solid white;
+    border-radius: 10px;
+    color: goldenrod;
+    display: inline-block;
+    padding: 1rem 2rem;
+    text-decoration: none;
+}
+
+
+
+/*About Section 06/02/2020 */
+
+#about {
+    background-color: #333333;
+    padding: 5rem 0;
+
+}
+
+#about .who h3{
+    color: goldenrod;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    text-align: left;
+}
+
+#about .who p{
+    font-family: Calibri, sans-serif;
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+
+}
+
+#about .what h3{
+    color: goldenrod;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    text-align: left;
+}
+
+#about .what p{
+    font-family: Calibri, sans-serif;
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+
+}
+
+#about .why h3{
+    color: goldenrod;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    text-align: left;
+}
+
+#about .why p{
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+    font-family: Calibri, sans-serif;
+}
+
+#about .about-content{
+    display: flex;
+}
+
+#about .about-paragraph{
+    text-align: justify;
+}
+
+#about .about-image{
+    display: block;
+    margin-left: 150px;
+    margin-top: 250px;
+    width: 40%;
+}
+
+/*Projects Section*/
+
+#projects{
+    padding: 5rem 0;
+}
+
+#projects h2 .text-primary{
+    color: #333333;
+}
+
+#projects h3{
+    color: goldenrod;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+#projects .project-boxes{
+    display: grid;
+}
+
+#projects .project-box{
+    background-color:#333333;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px slategrey;
+    color: goldenrod;
+    flex: 1;
+    font-size: 1.1rem;
+    margin: 1rem 3rem;
+    padding: 2rem;
+}
+
+#projects .project-box p{
+    border-radius: 50%;
+    color: white;
+}
+
+#projects .project-highlight{
+    font-family: Calibri, sans-serif;
+}
+
+.pokehood-button{
+    background: goldenrod;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: white;
+    display: inline;
+    align-content: center;
+    text-decoration: none;
+    transition: color 0.45s, background 0.45s;
+}
+
+.robotics-button{
+    border: 2px solid white;
+    border-radius: 10px;
+    color: goldenrod;
+    display: inline-block;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    transition: color 0.45s, background 0.45s;
+}
+
+#projects a{
+    font-size: 1.5rem;
+}
+
+#projects .robotics-button:hover, .pokehood-button:hover{
+    background:  #2055DA;
+    color: white;
+    opacity: 100%; /*TODO Try to get this to only fade the background no the text too,
+                    TODO Add the Header Buttons*/
+}
+
+
+/* Contact Section */
+
+#contact{
+    background: #333333;
+    padding: 5rem 0;
+}
+
+#contact h2 .text-primary{
+    color: goldenrod;
+}
+
+#contact h3{
+    font-size: 2.5rem;
+    margin: 3rem 5rem;
+    text-align: center;
+    color: #333333;
+}
+
+#contact h3 .text-primary{
+    color: goldenrod;
+}
+
+#contact .contact-form{
+    background: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px whitesmoke;
+    padding: 3rem;
+}
+
+#contact .contact-content{
+    margin-bottom: 2rem;
+}
+
+#contact .contact-content label{
+    color: #333333;
+    display: block;
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+    margin-left: 10%;
+    width: 80%;
+}
+
+#contact .contact-content input,
+#contact .contact-content textarea{
+    border: 1px solid #333333;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    margin-left: 10%;
+    padding: 1rem;
+    width: 80%;
+}
+
+#contact .contact-content textarea{
+    font-family: Arial, sans-serif;
+}
+
+#contact .contact-button{
+    background: none;
+    border: 2px solid #333333;
+    border-radius: 10px;
+    color: goldenrod;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Brush Script MT", sans-serif;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 10%;
+    transition: color 0.45s, background 0.45s;
+    width: 80%;
+
+}
+
+#contact .contact-button:hover{
+    background: #2055DA;
+    color: white;
+}
+
+#contact .contact-container{
+    position: relative;
+}
+
+#contact .icon{
+    background: goldenrod;
+    border-radius: 50%;
+    color: white;
+    display: inline-block;
+    font-size: 4rem;
+    left: 45%;
+    padding: 1.5rem 2rem;
+    position: absolute;
+    top: -8%;
+}
+
+#contact .button{
+    background: #333333;
+    border: 2px solid #333333;
+    border-radius: 10px;
+    color: goldenrod;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Brush Script MT", sans-serif;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    margin-left: 10%;
+    padding: 0rem;
+    transition: color 0.45s, background 0.45s;
+    width: 80%;}
+
+#special-features h2{
+    color: #333333;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+#special-features h2 .text-primary{
+    color: goldenrod;
+}
+
+#special-features .button{
+    background: none;
+    border: 2px solid #333333;
+    border-radius: 10px;
+    color: goldenrod;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Brush Script MT", sans-serif;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 10%;
+    transition: color 0.45s, background 0.45s;
+    width: 80%;
+
+}
+
+#special-features .button:hover{
+    background:  #2055DA;
+    color: white;
+}
+
+
+/* Footer Section */
+.footer-background{
+    background: goldenrod;
+}
+
+footer{
+    padding: 1rem;
+}
+
+footer p{
+    font-family: Arial,sans-serif;
+    font-size: 1rem;
+    text-align: center;
+}
+
+
+
+
+
